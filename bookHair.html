@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<head>
+
+   
+
+ <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+<script src="CW.js"></script>
+
+<title>Salon Booking</title>
+<link rel="stylesheet" href="book.css">
+</head>
+<body>
+
+<form name="UserForm" onsubmit="return doValidate()" action="CW.php" method="POST">
+
+    <!-- header -->
+    <header>
+        <h1>Book Your Appointment</h1>
+        <p>Get your perfect look at ASN Salon</p>
+    </header>
+
+<main>
+    <div class="form-box">
+
+   
+    <section class="booking-step">
+        <div class="left-column">
+        <h3>Select Services</h3><br>
+        <label>Our Services:</label>
+        <select name="service">
+            <option value="">Select</option>
+            <option value="Hair">Hair</option>
+            <option value="Nails">Nails</option>
+            <option value="Body">Body</option>
+            <option value="Kids">Kids</option>
+            <option value="Skin">Skin</option>
+            <option value="Bridal">Bridal</option>
+        </select>
+    </div>
+    </section>
+
+    
+    <section class="booking-step">
+        <div class="left-column">
+        <h3>Select Date & Time</h3><br>
+        <label>Date:</label>
+        <input type="date" name="date"><br><br>
+
+        <label>Time:</label>
+        <input type="time" name="time">
+    </div>
+    </section>
+
+
+    
+    <section class="booking-step">
+        <div class="right-column">
+        <h3>Customer Information</h3><br>
+
+        <label>Name:</label>
+        <input type="text" name="name"><br><br>
+
+        <label>Phone:</label>
+        <input type="tel" name="phone" ><br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email">
+    </div>
+    </section>
+
+
+
+    <section class="booking-step">
+        <button type="submit" class="confirm-btn">Confirm Appointment</button>
+    </section>
+</div>
+
+</main>
+</form>
+
+
+<!--footer-->
+    <section class="footer">
+        <div class="footer-box">
+            <h3>ASN Beauty Salon </h3>
+            <p>Naturals brings you a blissful experience for all your grooming needs  from luxurious hair treatments to soothing skin care rituals  all crafted to enhance your natural beauty with expert care and a touch of elegance.</p>
+            <div class="social">
+                <a href="#"><i class='bx  bxl-facebook-circle' onclick="window.open('https://web.facebook.com/?_rdc=1&_rdr#')"></i> </a>
+                <a href="#"><i class='bx  bxl-twitter' onclick="window.open('https://x.com/')"></i> </a>
+                <a href="#"><i class='bx  bxl-whatsapp' onclick="window.open('https://web.whatsapp.com/')"></i> </a>
+                <a href="#"><i class='bx  bxl-instagram' onclick="window.open('https://www.instagram.com/')"></i> </a>
+                <a href="#"><i class='bx  bxl-tiktok' onclick="window.open('https://www.tiktok.com/login?lang=en&redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fmessages')"></i> </a>
+            </div>
+        </div>
+
+        <div class="footer-box">
+            <h3>Support</h3>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Terms Of Use</a></li>
+            <li><a href="#">Services</a></li>
+        </div>
+
+        <div class="footer-box">
+            <h3>View Guides</h3>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog Post</a></li>
+            <li><a href="#">Our Branches</a></li>
+        </div>
+
+          <div class="footer-box">
+              <h3>Contact</h3>
+              <div class="contact">
+                  <span><i class='bx  bx-map'></i>862/3, Colombo Road, Hidellana, Ratnapura<br></span>
+                  <span><i class='bx  bx-phone'></i>  +94 75 369-2112<br></span>
+                  <span><i class='bx  bx-envelope'></i>asnbeautysalon@gmail.com </span>
+              </div>
+          </div>
+    </section>
+
+
+</body>
+</html>

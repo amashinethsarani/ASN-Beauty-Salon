@@ -1,0 +1,283 @@
+*{
+   
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   scroll-padding-top: 4rem;
+   list-style: none;
+   text-decoration: none;
+}
+
+section{
+   padding: 20px;
+
+}
+
+
+body{
+   
+   background-color:#F891A5 ;
+   margin: 0;
+   font-family: "Poppins", sans-serif;
+   display: flex;
+   justify-content: center;
+   background-image: url("https://img.freepik.com/premium-photo/blurred-pink-gradient-wallpaper-background_542466-25.jpg");
+   background-repeat: none;
+   background-size: cover;
+   background-position: center;
+}
+
+
+.form-box{
+    
+   text-align: center;
+}
+
+header{
+
+   color: #C71585;
+   font-style: ;
+   align-items: center;
+   padding:18px 100px ;
+   transition: 0.5s linear;
+   text-align: center;
+      font-size: 30px;
+}
+
+.booking-step{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   max-width: 1000px;
+   margin: auto auto;
+   gap: 10px;
+   padding-left: 150px;
+   padding-right: 150px;
+      font-size: 20px;
+
+}
+
+.booking-step h3{
+
+   font-size: 20px;
+   color: darkred;
+}
+
+.left-column{
+   margin: 10px 10px;
+text-align: left;
+}
+
+.right-column{
+ margin: -300px 450px;
+ text-align: left;
+
+}
+
+.booking-step select{
+   background-color: pink;
+   width: 170px;
+   }
+
+.booking-step label{
+   margin: 10px;
+}
+
+.booking-step input{
+   background-color: pink;
+   width: 250px;
+   text-align: center;
+
+}
+
+.booking-step button{
+
+   width: 160px;
+   height: 40px;
+   background-color: lightpink;
+   border: 2px solid #BB1B5A;
+   border-radius: 4px;
+   color: #BB1B5A;
+   text-transform: capitalize;
+   margin: -15px 290px;
+}
+
+.booking-step button:hover{
+
+   background: #BB1B5A;
+   color:white;
+}
+
+
+
+
+
+.container{
+    width: 500px;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px #444;
+  
+
+   
+
+}
+
+h2{
+    color:#BB1B5A;
+    text-align:center;
+}
+
+.details{
+    font-size:18px;
+    margin-top:20px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 100%;
+    gap: 5px;
+}
+
+.btn{
+    display:inline-block;
+    text-align:center;
+    padding:12px 20px;
+    border-radius:5px;
+    text-decoration:none;
+    font-size:16px;
+    cursor:pointer;
+    border:none;
+
+}
+
+.change-btn{
+    background:#BB1B5A;
+    color:white;
+}
+
+.change-btn1{
+   background:#BB1B5A;
+    color:white;
+    margin: 10px 160px;
+
+
+}
+
+
+.remove-btn{
+    background:#cc0000;
+    color:white;
+
+
+}
+
+
+.done-btn{
+    background:green;
+    color:white;
+}
+ .aaa{
+   margin: 40px 0px;
+ }
+
+
+.footer{
+   font-family: comic sans MS;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   display: grid;
+   grid-template-columns: 2fr 1fr 1fr 1fr;
+   gap: 24px;
+   background-color:hotpink ;
+
+}
+
+.footer-box h3{
+   font-size: 19px;
+   font-weight: 600;
+   margin-bottom: 10px;
+
+}
+
+.footer-box p{
+   font-size: 15px;
+   margin-bottom: 10px;
+
+
+}
+
+.social{
+   display: flex;
+   align-items: center;
+   column-gap: 8px;
+}
+
+.social a  .bx{
+   font-size: 24px;
+   color: hotpink;
+   padding: 5px;
+   background: white;
+   border-radius: 3.2px;
+
+}
+
+.social a .bx:hover{
+   background: gray;
+   color: black;
+
+}
+
+
+@media (max-width: 768px) {
+
+  body {
+    justify-content: flex-start;
+  }
+
+  header {
+    padding: 10px;
+    font-size: 22px;
+  }
+
+  .booking-step {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  .right-column {
+    margin: 0;
+  }
+
+  .booking-step input,
+  .booking-step select {
+    width: 100%;
+  }
+
+  .booking-step button {
+    margin: 20px auto;
+    display: block;
+  }
+
+  .container {
+    width: 100%;
+    margin: 10px;
+  }
+
+  .footer {
+    position: static;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
